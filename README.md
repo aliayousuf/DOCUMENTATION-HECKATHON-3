@@ -267,9 +267,12 @@ o Status
 o Severity Level  
 o Assigned To 
 o Remarks
+![Screenshot 2025-01-21 234051](https://github.com/user-attachments/assets/ae0f4336-271d-4c55-8ebe-63b2057422e1)
 
 
-![Screenshot 2025-01-22 064820](https://github.com/user-attachments/assets/79136752-7f5b-4f5f-9117-401a3630b7dd)
+
+
+
  
 > Performance testing tools (e.g., Lighthouse,GTmetrix) for validate the application performance ,speed and SEO.
 
