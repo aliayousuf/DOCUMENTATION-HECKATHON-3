@@ -1,0 +1,12 @@
+Test CaseID,Test  Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,    Remarks
+TC001,API data migration into sanity,Import script>form schema>Data migrate,API data shown in sanity studio,All API data & fields shown in studio,Passed,High,                   -,Difficult for me but with help of sir Mubashir provided script code it become easy
+TC002,Intedrate sanity into next.js project,"Form Groq>Use Client.Fetch(*[_type==""product""])",Product data that are in studio now shown on Frontened,products displayed correctly ,Passed,Medium,Sir Hamzah,Due to sir Hamzah syed class lecture I easily form Groq Query and fetch data from sanity
+TC003, Product Listing Page,Open product page>Validate product,Products displayed properly,Products displayed properly,Passed,Low,             -,Work as expected
+TC003,Dynamic routing for product details,Click product >Single product page open,Single product displayed correctly,Single product displayed correctly,Passed,Low,             -,No issues found due to nextjs dynamic routing
+TC004,Test API error handling,Disconnect API>Refresh page,Show fallback UI with error message,Error message shown at UI,Passed,Medium,              -,Through try catch handle gracefully
+TC005,Check cart functionality,Add product to cart>verify cart details,Cart updates with add & remove product,Cart updates as expected,Passed,High,             -,Due to useshoppingcart library work as expected
+TC006,Checkout  functionality,Used stripe API>Input payment details,Store payment and customer details,Store payment and customer detail,Passed,High,             -,Payment method become easy with the use of stripe
+TC007,Verify shipEngine Shipment,Place order>Track shipment in shipEngine>select Carrier,Shipment created with  ID or tracking number,Shipment created with ID or tracking number,Passed,High,              -,Tracking is implement with shipEngine that give tracking number
+TC008,Check responsiveness on mobile,Resize browser window>check layout,Layout adjusts properly to screen size,Responsive layout working as set,Passed,Medium,              -,Test successful
+TC009,Cross browser testing(Chrome),Open in chrome browser site  and verify layout and functionality,The site renders consistently with all features working,The site works as expected in Chrome,Passed,Low,,Consistent user experience in chrome
+TC010, Staging Environment Testing by Gtmatrix,Validate speed > perfomance ,Good Perfomance and speed,"speed:TTFB= 265ms,perfomance: 92%",Passed,Low,             -,Overall good experience
